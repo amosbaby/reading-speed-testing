@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+}
+.table {
+  display: inline-flex;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  flex-wrap: wrap;
+  margin: 100px 0;
+}
+.cell {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+  flex-grow: 0;
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+}
